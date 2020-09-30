@@ -1,0 +1,490 @@
+.main_container {position: absolute;width: 1435px;height: 1211px;background-color: #F8F9FF;}
+
+/* style for left menu starts */
+.logo {
+	position: absolute;
+	width: 110px;
+	height: 22.58px;
+	left: 9%;
+	top: 23px;
+	border-radius: 0px;
+}
+.left_side_menu {
+	position: absolute;
+	left: 0%;
+	right: 85.07%;
+	top: 0%;
+	bottom: 0%;
+	height: 1211px;
+	width: 215px;
+	border-radius: 0px;
+	background-color: #FFFFFF;
+}
+.menu_tab1 {
+	position: absolute;
+	width: 215px;
+	height: 56px;
+	left: 0px;
+	top: 130px;
+	background-color: #E3E7FF;
+}
+.menu_tab2 {
+	position: absolute;
+	width: 216px;
+	height: 56px;
+	left: 0px;
+	top: 186px;
+}
+.menu_tab3 {
+	position: absolute;
+	height: 56px;
+	width: 216px;
+	left: 0px;
+	top: 242px;
+	border-radius: 0px;
+}
+.menu_tab4 {
+	position: absolute;
+	height: 56px;
+	width: 216px;
+	left: 0px;
+	top: 298px;
+	border-radius: 0px;
+}
+.menu_text{
+	position: absolute;
+	left: 14%;
+	right: 6.98%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	padding: 10% 0;
+	color: #1C1E4F;	
+}
+/* style for left menu ends */
+
+/* style for top nav starts */
+.top_nav {
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	bottom: 93.39%;
+	background-color: #FFFFFF;
+	height: 80px;
+	width: 1225px;
+	left: 215px;
+	top: 0px;
+	border-radius: 0px;
+}
+.nav_text{
+	position: absolute;
+	width: 94px;
+	height: 24px;
+	left: 60px;
+	top: 28px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1C1E4F;
+}
+.nav_profile_icon{
+	height: 50px;
+	width: 50px;
+	left: 1115px;
+	top: 15px;
+	border-radius: 0px;
+	position: absolute;
+}
+/* style for top nav ends */
+
+
+/* style for overview cards starts */
+.card_o_1{
+	position: absolute;
+	width: 267px;
+	height: 150px;
+	left: 275px;
+	top: 130px;
+	position: absolute;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+}
+
+.card_o_2{
+	position: absolute;
+	width: 267px;
+	height: 150px;
+	left: 562px;
+	top: 130px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+}
+
+.card_o_3{
+	position: absolute;
+	width: 267px;
+	height: 150px;
+	left: 849px;
+	top: 130px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+}
+
+.card_title{
+	position: absolute;
+	left: 8.99%;
+	right: 20%;
+	top: 12%;
+	bottom: 75.33%;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	letter-spacing: 1.21333px;
+	text-transform: uppercase;
+	color: #9198A5;
+}
+
+.card_content{
+	position: absolute;
+	left: 8.99%;
+	right: 9.74%;
+	top: 20%;
+	bottom: 35.33%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 32px;
+	color: #4F37FD;
+}
+/* style overview cards ends */
+
+.text_before_app_row{
+	position: absolute;
+	width: 215px;
+	height: 24px;
+	left: 275px;
+	top: 344px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	color: #1C1E4F;
+}
+.button_before_app_row{
+	position: absolute;
+	left: 82.08%;
+	right: 4.17%;
+	top: 27.25%;
+	bottom: 68.79%;
+	background: #4F37FD;
+	border-radius: 5px;
+}
+.button_text_before_app_row{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 30%;
+	bottom: 30.22%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/* app row starts */
+.app_row {
+	position: absolute;
+	width: 1105px;
+	height: 139px;
+	left: 275px;
+	top: 398px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+	border-radius: 1px;
+}
+.ar-1{
+	position: absolute;
+	left: 3.62%;
+	right: 82.35%;
+	top: 28.78%;
+	bottom: 62.59%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 1.12px;
+	text-transform: uppercase;
+	color: #9198A5;
+}
+.ar-2{
+	position: absolute;
+	left: 3.62%;
+	right: 82.35%;
+	top: 58.99%;
+	bottom: 28.78%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #1C1E4F;
+}
+.ar-3{
+	position: absolute;
+	left: 21.27%;
+	right: 64.71%;
+	top: 28.78%;
+	bottom: 62.59%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 1.12px;
+	text-transform: uppercase;
+	color: #9198A5;
+}
+.ar-4{
+	position: absolute;
+	left: 21.27%;
+	right: 64.71%;
+	top: 58.99%;
+	bottom: 25.18%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #1C1E4F;
+}
+.ar-5{
+	position: absolute;
+	left: 38.91%;
+	right: 47.06%;
+	top: 28.78%;
+	bottom: 60.43%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 1.12px;
+	text-transform: uppercase;
+	color: #9198A5;
+}
+.ar-6{
+	position: absolute;
+	left: 38.91%;
+	right: 47.06%;
+	top: 58.99%;
+	bottom: 25.18%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #1C1E4F;
+}
+.ar-7{
+	position: absolute;
+	left: 56.56%;
+	right: 29.41%;
+	top: 28.78%;
+	bottom: 60.43%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 1.12px;
+	text-transform: uppercase;
+	color: #9198A5;
+}
+.ar-8{
+	position: absolute;
+	left: 56.56%;
+	right: 29.41%;
+	top: 58.99%;
+	bottom: 25.18%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #1C1E4F;
+}
+.ar-9{
+	position: absolute;
+	left: 74.21%;
+	right: 11.76%;
+	top: 28.78%;
+	bottom: 62.59%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	letter-spacing: 1.12px;
+	text-transform: uppercase;
+	color: #9198A5;
+}
+.ar-10{
+	position: absolute;
+	left: 74.21%;
+	right: 16.29%;
+	top: 54.68%;
+	bottom: 20.14%;
+	background: #4F37FD;
+	border-radius: 5px;
+}
+.ar_btn_text{
+	position: absolute;
+	left: 30%;
+	right: 19.19%;
+	top: 30%;
+	bottom: 30.22%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+.ar-11{
+	position: absolute;
+	left: 95.38%;
+	right: 3.66%;
+	top: 41.73%;
+	bottom: 42.45%;
+	box-sizing: border-box;
+}
+/* app row ends */
+
+
+
+.icon {
+	align-items: center;
+	display: inline-flex;
+	justify-content: center;
+}
+/* colors */
+.tatum_puple{
+	color: #4F37FD;
+}
+
+
+
+/* strip logos */
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow {
+    width: 13px;
+    height: 24px;
+    background-position: -5px -5px;
+}
+
+.sprite-check {
+    width: 11px;
+    height: 7px;
+    background-position: -28px -5px;
+}
+
+.sprite-contact-us {
+    width: 15px;
+    height: 11px;
+    background-position: -49px -5px;
+}
+
+.sprite-copy {
+    width: 16px;
+    height: 15px;
+    background-position: -74px -5px;
+}
+
+.sprite-dev {
+    width: 65px;
+    height: 65px;
+    background-position: -28px -30px;
+}
+
+.sprite-dev-tools {
+    width: 15px;
+    height: 11px;
+    background-position: -100px -5px;
+}
+
+.sprite-docs {
+    width: 15px;
+    height: 15px;
+    background-position: -103px -26px;
+}
+
+.sprite-edit {
+    width: 13px;
+    height: 13px;
+    background-position: -5px -51px;
+}
+
+.sprite-google {
+    width: 18px;
+    height: 18px;
+    background-position: -103px -51px;
+}
+
+.sprite-linkedin {
+    width: 19px;
+    height: 18px;
+    background-position: -103px -79px;
+}
+
+.sprite-overview {
+    width: 15px;
+    height: 15px;
+    background-position: -5px -107px;
+}
+
+.sprite-plus {
+    width: 12px;
+    height: 12px;
+    background-position: -5px -79px;
+}
+
+.sprite-twitter {
+    width: 19px;
+    height: 15px;
+    background-position: -30px -107px;
+}
+
+.sprite-user {
+    width: 50px;
+    height: 50px;
+    background-position: -131px -5px;
+}
+
+
+
