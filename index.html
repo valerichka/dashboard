@@ -5,8 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script defer src="script.js"></script>
 </head>
-<body>
-
+<body class="body">
 	<div class="main_container">
 		
 		<!-- left side menu starts -->
@@ -16,13 +15,13 @@
 			</a>
 
 			<div>
-				<div class="menu_tab1 menu_tab_hover_1">
-					<a class="menu_text menu_tab_hover_2">
+				<div class="active_menu_tab_1 menu_tab1 menu_tab_hover_1">
+					<a class="active_menu_tab_2 menu_text menu_tab_hover_2">
 						<span class="icon">
 						  	<i class="sprite sprite-overview"></i>
 						</span>
 						&nbsp;
-						<span>Overview</span>
+						<span class="menu_tab_inner_text">Overview</span>
 					</a>
 				</div>
 				<div class="menu_tab2 menu_tab_hover_1">
@@ -31,7 +30,7 @@
 						  	<i class="sprite sprite-docs"></i>
 						</span>
 						&nbsp;
-						<span>Docs</span>
+						<span class="menu_tab_inner_text">Docs</span>
 					</a>
 				</div>
 				<div class="menu_tab3 menu_tab_hover_1">
@@ -40,7 +39,7 @@
 						  	<i class="sprite sprite-contact-us"></i>
 						</span>
 						&nbsp;
-						<span>Contact Us</span>
+						<span class="menu_tab_inner_text">Contact Us</span>
 					</a>
 				</div>
 				<div class="menu_tab4 menu_tab_hover_1">
@@ -49,7 +48,7 @@
 						  	<i class="sprite sprite-dev-tools"></i>
 						</span>
 						&nbsp;
-						<span>Dev tools</span>
+						<span class="menu_tab_inner_text">Dev tools</span>
 					</a>
 				</div>
 			</div>
@@ -83,7 +82,7 @@
 				</div>	
 				<div class="card_o_3">
 					<p class="card_title">your apps</p>
-					<p class="card_content"><b>2</b> / 20 <br><b>free apps</b></p>
+					<p class="card_content"><b>2</b> / 20 <br>free apps</p>
 				</div>		
 			</div>	
 
@@ -91,18 +90,18 @@
 				<span class="text_before_app_row">Your apps (2/20 apps)</span>
 				<span class="button_before_app_row button_hover" onclick="OpenCreateAppModal()">
 					<span class="button_text_before_app_row">
-						<i class="c-w sprite sprite-plus"></i>
+						<span class="create_new_app_icon">+</span>
 						&nbsp;
 						Create new app
 					</span>
 				</span>
-				<div class="app_row app_div_hover">
+				<div class="app_row overview_app_row_hover edit">
 					<span class="ar-1">Name</span>
 					<span class="ar-2">Mainnet app</span>
 					<span class="ar-3">Network</span>
 					<span class="ar-4">Mainnet</span>
 					<span class="ar-5">Credits usage</span>
-					<span class="ar-6">0 / ∞</span>
+					<span class="ar-6"><span class="font_medium">0 </span>/ ∞</span>
 					<span class="ar-7">Plan</span>
 					<span class="ar-8">Free</span>
 					<span class="ar-9">Api key</span>
@@ -136,12 +135,19 @@
 			</span>
 
 			<span class="modal_form_label_1">app name</span>
-			<input class="modal_form_input modal_form_select_text" type="" name="" value="">
+			<input class="modal_form_input modal_form_input_text" type="" name="" value="">
 			<span class="modal_form_label_2">network</span>
-			<select class="modal_form_select modal_form_select_text" style="">
-				<option class="modal_form_select_text" value="Network">Network</option>
-				<option class="modal_form_select_text" value="Testnet">Testnet</option>
-			</select>
+			<span>
+				<span class="modal_dropdown_input edit" onclick="show_modal_dropdown()">
+					<span class="modal_dropdown_input_text">Testnet</span>
+					<span class="modal_dropdown_input_icon"><i class="sprite sprite-dropup"></i></span>
+				</span>
+				<div id="modal_dropdown" class="modal_dropdown_menu dropdown_hide">
+					<span class="modal_dropdown_menu_text_1" onclick="hide_modal_dropdown()">Testnet</span>
+					<span class="modal_dropdown_menu_icon edit" onclick="hide_modal_dropdown()"><i class="sprite sprite-dropup"></i></span>
+					<span class="modal_dropdown_menu_text_2 ad_dropdown_tab_hover edit" onclick="hide_modal_dropdown()">Mainet</span>
+				</div>
+			</span>
 
 			<span class="modal_form_button_1 button_hover" onclick="ShowAppWasCreatedAlert()">
 				<span class="modal_form_button_1_text">

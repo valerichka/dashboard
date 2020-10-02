@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script defer src="script.js"></script>
 </head>
-<body>
+<body class="body">
 
 	<div class="main_container">
 		
@@ -22,7 +22,7 @@
 						  	<i class="sprite sprite-overview"></i>
 						</span>
 						&nbsp;
-						<span>Overview</span>
+						<span class="menu_tab_inner_text">Overview</span>
 					</a>
 				</div>
 				<div class="menu_tab2 menu_tab_hover_1">
@@ -31,7 +31,7 @@
 						  	<i class="sprite sprite-docs"></i>
 						</span>
 						&nbsp;
-						<span>Docs</span>
+						<span class="menu_tab_inner_text">Docs</span>
 					</a>
 				</div>
 				<div class="menu_tab3 menu_tab_hover_1">
@@ -40,7 +40,7 @@
 						  	<i class="sprite sprite-contact-us"></i>
 						</span>
 						&nbsp;
-						<span>Contact Us</span>
+						<span class="menu_tab_inner_text">Contact Us</span>
 					</a>
 				</div>
 				<div class="menu_tab4 menu_tab_hover_1">
@@ -49,7 +49,7 @@
 						  	<i class="sprite sprite-dev-tools"></i>
 						</span>
 						&nbsp;
-						<span>Dev tools</span>
+						<span class="menu_tab_inner_text">Dev tools</span>
 					</a>
 				</div>
 			</div>
@@ -86,7 +86,7 @@
 				</div>		
 				<div class="card_ad_2">
 					<p class="card_ad_2_title">credits used total</p>
-					<p class="card_ad_2_content"><b>900</b>/ ∞</p>
+					<p class="card_ad_2_content"><span class="font_medium"> 900 </span>/ ∞</p>
 				</div>	
 				<div class="card_ad_3">
 					<p class="card_ad_3_title">network</p>
@@ -105,11 +105,19 @@
 
 			<div>
 				<span class="text_before_image">Credits usage</span>
-				<select class="select_before_image select_text_before_image" style="width: 14%">
-					<option class="select_text_before_image" value="1 month">1 month</option>
-					<option class="select_text_before_image" value="7 days">7 days</option>
-					<option class="select_text_before_image" value="24 hour">24 hour</option>
-				</select>
+				<span>
+					<span class="ad_dropdown_input edit" onclick="show_ad_dropdown()">
+						<span class="ad_dropdown_input_text">1 month</span>
+						<span class="ad_dropdown_input_icon"><i class="sprite sprite-dropup"></i></span>
+					</span>
+					<div id="ad_dropdown" class="ad_dropdown_menu dropdown_hide">
+						<span class="ad_dropdown_menu_text_1" onclick="hide_ad_dropdown()">1 month</span>
+						<span class="ad_dropdown_menu_icon edit" onclick="hide_ad_dropdown()"><i class="sprite sprite-dropup"></i></span>
+						<span class="ad_dropdown_menu_text_2 ad_dropdown_tab_hover edit" onclick="hide_ad_dropdown()">24 h</span>
+						<span class="ad_dropdown_menu_text_3 ad_dropdown_tab_hover edit" onclick="hide_ad_dropdown()">7 days</span>
+						<span class="ad_dropdown_menu_text_4 ad_dropdown_tab_hover edit" onclick="hide_ad_dropdown()">1 month</span>
+					</div>
+				</span>
 
 				<div class="image_outer_div" >
 					<img class="image" src="graph-image.jpg">

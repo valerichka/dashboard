@@ -24,6 +24,25 @@ function OpenCreateAppModal(){
 	document.getElementById("create_app_modal").classList.toggle("dropdown_hide");
 }
 
+/* show app detail dropdown */
+function show_ad_dropdown(){
+	document.getElementById("ad_dropdown").classList.toggle("dropdown_hide");
+}
+/* hide app detail dropdown */
+function hide_ad_dropdown(){
+	document.getElementById("ad_dropdown").classList.toggle("dropdown_hide");
+}
+
+/* show modal create dropdown */
+function show_modal_dropdown(){
+	document.getElementById("modal_dropdown").classList.toggle("dropdown_hide");
+}
+
+/* hide modal create dropdown */
+function hide_modal_dropdown(){
+	document.getElementById("modal_dropdown").classList.toggle("dropdown_hide");
+}
+
 /* this will open create app modal*/
 function ShowAppWasCreatedAlert(){
 	document.getElementById("create_app_modal").classList.toggle("dropdown_hide");

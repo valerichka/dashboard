@@ -1,3 +1,4 @@
+.body{margin: 0;background-color: #F8F9FF;}
 .main_container {position: absolute;width: 1435px;height: 1211px;background-color: #F8F9FF;}
 
 /********************************************************/
@@ -9,8 +10,9 @@
 .menu_tab2 {position: absolute;width: 216px;height: 56px;left: 0px;top: 186px;}
 .menu_tab3 {position: absolute;height: 56px;width: 216px;left: 0px;top: 242px;border-radius: 0px;}
 .menu_tab4 {position: absolute;height: 56px;width: 216px;left: 0px;top: 298px;border-radius: 0px;}
-.menu_text{position: absolute;left: 14%;right: 6.98%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 15px;line-height: 18px;padding: 10% 0;color: #1C1E4F;}
-.menu_tab_hover_1:hover{color: #4F37FD;cursor:pointer;background-color: #E3E7FF;border-left: 5px solid #4F37FD;}
+.menu_text{position: absolute;left: 14%;right: 6.98%;font-family: Montserrat;font-style: normal;font-weight: 400;font-size: 15px;line-height: 18px;padding: 10% 0;color: #1C1E4F;}
+.menu_tab_inner_text{position: absolute;top: 20px;left: 30px}
+.menu_tab_hover_1:hover{color: #4F37FD;cursor:pointer;background-color: #E3E7FF;border-left: 5px solid #4F37FD;width:98%}
 .menu_tab_hover_2:hover{color: #4F37FD;}
 /* left menu ends */
 
@@ -30,6 +32,7 @@
 
 .text_before_app_row{position: absolute;width: 215px;height: 24px;left: 275px;top: 344px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 20px;line-height: 24px;color: #1C1E4F;}
 .button_before_app_row{position: absolute;left: 82.08%;right: 4.17%;top: 27.25%;bottom: 68.79%;background: #4F37FD;border-radius: 5px;}
+.create_new_app_icon{font-weight: 600; font-size: 25px}
 .button_text_before_app_row{position: absolute;left: 15%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 
 /* app row starts */
@@ -39,7 +42,7 @@
 .ar-3{position: absolute;left: 21.27%;right: 64.71%;top: 28.78%;bottom: 62.59%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 12px;line-height: 15px;letter-spacing: 1.12px;text-transform: uppercase;color: #9198A5;}
 .ar-4{position: absolute;left: 21.27%;right: 64.71%;top: 58.99%;bottom: 25.18%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 18px;line-height: 22px;color: #1C1E4F;}
 .ar-5{position: absolute;left: 38.91%;right: 47.06%;top: 28.78%;bottom: 60.43%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 12px;line-height: 15px;letter-spacing: 1.12px;text-transform: uppercase;color: #9198A5;}
-.ar-6{position: absolute;left: 38.91%;right: 47.06%;top: 58.99%;bottom: 25.18%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 18px;line-height: 22px;color: #1C1E4F;}
+.ar-6{position: absolute;left: 38.91%;right: 47.06%;top: 58.99%;bottom: 25.18%;font-family: Montserrat;font-style: normal;font-weight: 400;font-size: 18px;line-height: 22px;color: #1C1E4F;}
 .ar-7{position: absolute;left: 56.56%;right: 29.41%;top: 28.78%;bottom: 60.43%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 12px;line-height: 15px;letter-spacing: 1.12px;text-transform: uppercase;color: #9198A5;}
 .ar-8{position: absolute;left: 56.56%;right: 29.41%;top: 58.99%;bottom: 25.18%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 18px;line-height: 22px;color: #1C1E4F;}
 .ar-9{position: absolute;left: 74.21%;right: 11.76%;top: 28.78%;bottom: 62.59%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 12px;line-height: 15px;letter-spacing: 1.12px;text-transform: uppercase;color: #9198A5;}
@@ -56,12 +59,12 @@
 .modal_form_container{position: absolute;width: 500px;height: 420px;left: 470px;top: 395px;background: #FFFFFF;border-radius: 5px;}
 .modal_form_header{position: absolute;width: 500px;height: 80px;left: 0px;top: 0px;background: #4F37FD;border-radius: 5px 5px 0px 0px;}
 .modal_form_text{position: absolute;width: 164px;height: 19px;left: 47px;top: 29px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 20px;line-height: 24px;color: #FCFCFC;}
-.modal_form_cross_button{position: absolute;width: 19px;height: 19px;left:445px;top: 29px;color: #FCFCFC;}
+.modal_form_cross_button{position: absolute;width: 19px;height: 19px;left:439px;top: 29px;color: #FCFCFC;}
 .modal_form_label_1{position: absolute;left: 53px;top: 129px;right: 52.78%;bottom: 56.4%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
 .modal_form_input{position: absolute;height: 48px;left: 53px;top: 154px;right: 510px;width: 81%;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
+.modal_form_input_text{font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;padding-left: 4%;color: #1C1E4F;}
+.modal_form_input_text:focus{outline: none;}
 .modal_form_label_2{position: absolute;left: 53px;top: 224px;right: 52.78%;bottom: 47.65%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
-.modal_form_select{position: absolute;height: 48px;left: 53px;top: 250px;right: 510px;width: 81%;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
-.modal_form_select_text{position: absolute;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;color: #1C1E4F;}
 .modal_form_button_1{position: absolute;left: 53px;right: 58%;top: 79%;bottom: 68.79%;background-color:#4F37FD;;border-radius: 7px; height: 48px;}
 .modal_form_button_1_text{position: absolute;left: 24%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 .modal_form_button_2{position: absolute;left: 216px;right: 31%;top: 79%;bottom: 68.79%;background: #F7F7F9;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 7px; height: 48px;}
@@ -69,6 +72,13 @@
 .created_app_alert{position: absolute;width: 384px;height: 56px;left: 528px;top: 0px;background: #4EDB89;border-radius: 1px;}
 .created_app_alert_tick_icon{position: absolute;width: 21px;height: 21px;left: 40px;top: 17px;}
 .created_app_alert_text{position: absolute;width: 210px;height: 17px;left: 40px;top: 19px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;text-align: center;color: #FCFCFC;}
+.modal_dropdown_input{position: absolute;height: 48px;right: 510px;left: 53px;top: 254px;width: 81%;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
+.modal_dropdown_input_text{position: absolute;left: 5%;right: 59.86%;top: 34.68%;bottom: 43.63%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;color: #1C1E4F;}
+.modal_dropdown_input_icon{position: absolute;left: 90.75%;right: 18.75%;top: 50%;transform: matrix(1, 0, 0, -1, 0, 0);}
+.modal_dropdown_menu{position: absolute;height: 90px;right: 510px;left: 53px;top: 254px;width: 81%;z-index: 4;background-color: #FFFFFF;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
+.modal_dropdown_menu_text_1{position: absolute;left: 5%;right: 18.75%;top: 18%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 18px;color: #1C1E4F;}
+.modal_dropdown_menu_icon{position: absolute;left: 93%;right: 18.75%;top: 24%;transform: matrix(-1, 0, 0, 1, 0, 0);}
+.modal_dropdown_menu_text_2{position: absolute;left: 0%;right: 0;top: 55%;padding-left: 5%;padding-top: 2%;padding-bottom: 1%; font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 18px;color: #1C1E4F;height: 30px;}
 /* style for overview after account creation page ends*/
 /******************************************************/
 
@@ -88,21 +98,27 @@
 /* cards end */
 
 .card_ad_1_title{position: absolute;left: 9.36%;right: 30%;top: 8%;bottom: 75.33%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
-.card_ad_1_content_1{position: absolute;left: 9.36%;right: 9.36%;top: 18%;bottom: 48%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 28px;line-height: 32px;color: #4F37FD;}
+.card_ad_1_content_1{position: absolute;left: 9.36%;right: 9.36%;top: 18%;bottom: 48%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 28px;line-height: 32px;color: #4F37FD;}
 .card_ad_1_content_2{position: absolute;left: 9.36%;right: 9.36%;top: 56%;bottom: 16%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 12px;line-height: 160.4%;color: #1C1E4F;}
 .card_ad_2_title{position: absolute;left: 8.99%;right: 22%;top: 8%;bottom: 75.33%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
-.card_ad_2_content{position: absolute;left: 8.99%;right: 9.74%;top: 18%;bottom: 35.33%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 28px;line-height: 32px;color: #4F37FD;}
+.card_ad_2_content{position: absolute;left: 8.99%;right: 9.74%;top: 18%;bottom: 35.33%;font-family: Montserrat;font-style: normal;font-weight: 400;font-size: 28px;line-height: 32px;color: #4F37FD;}
 .card_ad_3_title{position: absolute;left: 8.99%;right: 9.74%;top: 8%;bottom: 75.33%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
-.card_ad_3_content{position: absolute;left: 8.99%;right: 9.74%;top: 18%;bottom: 30.67%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 28px;line-height: 32px;color: #4F37FD;}
+.card_ad_3_content{position: absolute;left: 8.99%;right: 9.74%;top: 18%;bottom: 30.67%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 28px;line-height: 32px;color: #4F37FD;}
 .card_ad_4_title{position: absolute;left: 8.99%;right: 28.46%;top: 8%;bottom: 75.33%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
 .card_ad_4_button_1{position: absolute;left: 8.99%;right: 51.69%;top: 40%;bottom: 36%;background: #4F37FD;border-radius: 7px;}
 .card_ad_4_button_1_text{position: absolute;left: 29.97%;right: 63.67%;top: 50%;bottom: 42.67%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 .card_ad_4_button_2{position: absolute;left: 52.06%;right: 12.73%;top: 40%;bottom: 36%;background: #4F37FD;border-radius: 7px;}
 .card_ad_4_button_2_text{position: absolute;left: 34.04%;right: 24.72%;top: 48%;bottom: 40%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
-
 .text_before_image{position: absolute;width: 138px;height: 24px;left: 278px;top: 390px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 20px;line-height: 24px;color: #1C1E4F;}
-.select_before_image{position: absolute;height: 40px;left: 1180px;right: 60px;top: 386px;background: #FFFFFF;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 7px;width: 14%}
-.select_text_before_image{position: absolute;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 18px;color: #1C1E4F;}
+.ad_dropdown_input{position: absolute;height: 40px;left: 1180px;right: 55px;top: 386px;background-color: #FFFFFF;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 7px;}
+.ad_dropdown_input_text{position: absolute;left: 13%;right: 5.83%;top: 32.7%;bottom: 65.81%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 18px;color: #1C1E4F;}
+.ad_dropdown_input_icon{position: absolute;left: 85%;right: 18.75%;top: 60%;bottom: 35%;transform: matrix(1, 0, 0, -1, 0, 0);}
+.ad_dropdown_menu{position: absolute;height: 199px;left: 1180px;right: 55px;top: 386px;z-index: 4;background-color: #FFFFFF;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
+.ad_dropdown_menu_text_1{position: absolute;left: 13%;right: 18.75%;top: 10%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 18px;color: #1C1E4F;}
+.ad_dropdown_menu_icon{position: absolute;left: 88%;right: 18.75%;top: 10%;transform: matrix(-1, 0, 0, 1, 0, 0);}
+.ad_dropdown_menu_text_2{position: absolute;left: 0;right: 0;top: 35%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 18px;color: #1C1E4F;height: 30px;padding-left: 13%; padding-top: 7%;}
+.ad_dropdown_menu_text_3{position: absolute;left: 0%;right: 0%;top: 57%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 18px;color: #1C1E4F;height: 30px;padding-left: 13%; padding-top: 7%}
+.ad_dropdown_menu_text_4{position: absolute;left: 0%;right: 0%;top: 79%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 18px;color: #1C1E4F;height: 30px;padding-left: 13%; padding-top: 7%}
 .image{position: absolute;width: 1105px;height: 460px;left: 275px;top: 446px;background: #FFFFFF;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);border-radius: 5px}
 /* style of app detail page end */
 /*******************************/
@@ -137,9 +153,11 @@
 .ps_help_text_2{position: absolute;left: 46px;	right: 67.57%;top: 61%;bottom: 59.95%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 12px;line-height: 15px;color: #F90C1B;}
 .ps_label_3{position: absolute;top: 355px;left: 46px;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
 .ps_input_3{position: absolute;height: 48px;top: 385px;left: 46px;width: 50%;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
-.profile_setting_button{position: absolute;left: 46px;;right: 81%;top: 87.25%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 40px;}
+.profile_setting_button{position: absolute;left: 46px;;right: 81%;top: 87.25%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .profile_setting_button_text{position: absolute;left: 19%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 .profile_update_alert_text{position: absolute;width: 210px;height: 17px;left: 80px;top: 19px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;text-align: center;color: #FCFCFC;}
+.profile_form_input_text{font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;padding-left: 2%;color: #1C1E4F;}
+.profile_form_input_text:focus{outline: none;}
 /* style of profile settings ends */
 /**********************************/
 
@@ -157,18 +175,18 @@
 .logo_on_signup{position: absolute;width: 180px;height: 36.94px;left: 630px;top: 100px;}
 .signup_form_container{position: absolute;width: 571px;height: 571px;left: 435px;top: 217px;background: #FFFFFF;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);border-radius: 5px;}
 .signup_text_1{position: absolute;width: 229px;height: 23px;left: 31%;top: 8%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 24px;line-height: 29px;color: #1C1E4F;}
-.signup_google{position: absolute;left: 37px;right: 68%;top: 20%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 40px;}
+.signup_google{position: absolute;left: 37px;right: 68%;top: 20%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .signup_google_text{position: absolute;left: 19%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
-.signup_linkedin{position: absolute;left: 202px;right: 37.6%;top: 20%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 40px;}
+.signup_linkedin{position: absolute;left: 202px;right: 37.6%;top: 20%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .signup_linkedin_text{position: absolute;left: 18%;right: 10%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
-.signup_twitter{position: absolute;left: 375px;right: 8%;top: 20%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 40px;}
+.signup_twitter{position: absolute;left: 375px;right: 8%;top: 20%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .signup_twitter_text{position: absolute;left:22%;right: 10%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 .signup_or{position: absolute;width: 18px;height: 17px;left: 273px;top: 193px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;color: #9198A5;}
 .or_left{position: absolute;width: 217px;height: 0px;left: 37px;top: 200px;border: 1px solid #DBDEEC;}
 .or_right{position: absolute;width: 217px;height: 0px;left: 307px;top: 200px;border: 1px solid #DBDEEC;}
 .signup_label{position: absolute;left: 6.5%;right: 55.21%;top: 45.41%;bottom: 53.32%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
 .singup_input{position: absolute;height: 48px;left: 38px;right: 474px;top: 293px;width: 86%;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
-.signup_button{position: absolute;left: 166px;right: 31%;top: 67%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 44px;}
+.signup_button{position: absolute;left: 166px;right: 31%;top: 67%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .signup_button_text{position: absolute;left: 20%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 .signup_text_2{position: absolute;width: 491px;height: 30px;left: 35px;top: 445px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 12px;line-height: 17px;text-align: center;color: #1C1E4F;}
 .signup_text_3{	position: absolute;width: 233px;height: 14px;left: 162px;top: 520px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;color: #1C1E4F;}
@@ -196,7 +214,7 @@
 .fill_additional_inofrmation_input_3{position: absolute;height: 48px;left: 6.5%;top: 57%;width: 87%;right: 474px;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
 .fill_additional_inofrmation_label_4{position: absolute;left: 6.5%;top: 69%;right: 55.21%;bottom: 36.43%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
 .fill_additional_inofrmation_input_4{position: absolute;height: 48px;left: 6.5%;top: 74%;width: 87%;right: 474px;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
-.fill_additional_inofrmation_button{position: absolute;left: 232px;right: 36%;top: 87%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 44px;}
+.fill_additional_inofrmation_button{position: absolute;left: 232px;right: 36%;top: 87%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .fill_additional_information_button_text{position: absolute;left: 24%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 /* style of fill of additional information ends */
 /***********************************************/
@@ -205,13 +223,13 @@
 /* style of signin page starts */
 .signin_form_container{position: absolute;width: 571px;height: 623px;left: 435px;top: 217px;background: #FFFFFF;box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);border-radius: 5px;}
 .signin_text_1{position: absolute;width: 309px;height: 23px;left: 124px;top: 50px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 24px;line-height: 29px;color: #1C1E4F;}
-.signin_text_2{position: absolute;width: 163px;height: 14px;left: 366px;top: 364px;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #4F37FD;}
+.signin_text_2{position: absolute;width: 163px;height: 14px;left: 366px;top: 58%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #4F37FD;}
 .signin_text_3{position: absolute;width: 224px;height: 14px;left: 177px;top: 574px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;color: #1C1E4F;}
 .signin_label_1{position: absolute;left: 6.5%;top: 41%;right: 55.21%;bottom: 53.32%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
 .signin_input_1{position: absolute;height: 48px;left: 6.5%;top: 46%;right: 474px;width: 86%;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
 .signin_label_2{position: absolute;left: 6.5%;top: 58%;right: 55.21%;bottom: 42.87%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
 .signin_input_2{position: absolute;height: 48px;left: 6.5%;top: 63%;width: 86%;right: 474px;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
-.signin_button{position: absolute;left: 226px;right: 41%;top: 76%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 44px;}
+.signin_button{position: absolute;left: 226px;right: 41%;top: 76%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .signin_button_text{position: absolute;left: 27%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 /* style of signin page ends */
 /****************************/
@@ -222,7 +240,7 @@
 .forgot_password_text{position: absolute;width: 276px;height: 23px;left: 150px;top: 35px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 24px;line-height: 29px;color: #1C1E4F;}
 .forgot_password_label{position: absolute;left: 6.5%;top: 31.25%;right: 55.21%;bottom: 67.48%;font-family: Montserrat;font-style: normal;font-weight: 500;font-size: 13px;line-height: 16px;letter-spacing: 1.21333px;text-transform: uppercase;color: #9198A5;}
 .forgot_password_input{position: absolute;height: 48px;left: 6.5%;top: 40%;width: 87%;right: 474px;border: 1px solid #DBDEEC;box-sizing: border-box;border-radius: 5px;}
-.forgot_password_button{position: absolute;left: 177px;right: 31%;top: 72%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 44px;}
+.forgot_password_button{position: absolute;left: 177px;right: 31%;top: 72%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .forgot_password_button_text{position: absolute;left: 18%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 /* style of forgot password page ends */
 /*************************************/
@@ -243,7 +261,7 @@
 .email_text_1{position: absolute;width: 480px;height: 63px;left: 65px;top: 152px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 150%;color: #1C1E4F;}
 .email_text_2{position: absolute;width: 480px;height: 63px;left: 65px;top: 336px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 150%;color: #1C1E4F;}
 .email_text_3{position: absolute;width: 480px;height: 40px;left: 65px;top: 426px;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 15px;line-height: 150%;color: #1C1E4F;}
-.email_button{position: absolute;left: 222px;right: 36%;top: 50%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 54px;}
+.email_button{position: absolute;left: 222px;right: 36%;top: 50%;bottom: 68.79%;background: #4F37FD;border-radius: 7px; height: 48px;}
 .email_button_text{position: absolute;left: 21%;right: 15%;top: 30%;bottom: 30.22%;font-family: Montserrat;font-style: normal;font-weight: 600;font-size: 14px;line-height: 17px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
 /* style of email page ends */
 /***************************/
@@ -263,39 +281,145 @@
 .button_hover:hover {background: #321CD3;cursor:pointer;}
 .arrow {transition-property: left;transition-duration: 1s}
 .arrow:hover {left: 96.5%;}
-.app_div_hover:hover {cursor:pointer;5%;}
 .edit:hover{cursor:pointer}
 .profile_input_color_red{border-color:#F90C1B}
 .link_text{font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 500;line-height: 20px;letter-spacing: 0px;text-align: center;color: #4F37FD}
 .email_link_text{font-family: Montserrat;font-size: 15px;font-style: normal;font-weight: 500;line-height: 23px;letter-spacing: 0px;}
-
-
+.font_medium{font-weight: 500;};
 .icon {align-items: center;display: inline-flex;justify-content: center;}
-
+.ad_dropdown_tab_hover:hover{background-color: #DBDEEC;border-radius: 0px 0px 5px 5px;}
+.active_menu_tab_1{color: #4F37FD;cursor:pointer;background-color: #E3E7FF;border-left: 5px solid #4F37FD;width:98%}
+.active_menu_tab_2{color: #4F37FD;}
+.card_dt_1_hover {transition-property: top;transition-duration: .3s}
+.card_dt_1_hover:hover{top: 180px;}
+.card_dt_3_hover {transition-property: top;transition-duration: .3s}
+.card_dt_3_hover:hover{top: 380px;}
+.card_dt_5_hover {transition-property: top;transition-duration: .3s}
+.card_dt_5_hover:hover{top: 580px;}
+.copy_write_text{position: absolute;width: 236px;height: 15px;left: 602px;top: 95%;font-family: Montserrat;font-style: normal;font-weight: normal;font-size: 12px;line-height: 15px;display: flex;align-items: center;text-align: center;color: #1C1E4F;}
+.overview_app_row_hover {transition-property: top;transition-duration: .3s}
+.overview_app_row_hover:hover{top: 393px;}
 /* colors */
 .tatum_puple{color: #4F37FD;}
 
 
 
 /* strip logos */
-.sprite {background-image: url(spritesheet.png);background-repeat: no-repeat;display: block;}
-.sprite-alert_tick {width: 21px;height: 21px;background-position: -5px -5px;}
-.sprite-arrow {width: 13px;height: 24px;background-position: -36px -5px;}
-.sprite-cancel_button {width: 21px;height: 21px;background-position: -59px -5px;}
-.sprite-check {width: 21px;height: 14px;background-position: -90px -5px;}
-.sprite-contact-us {width: 15px;height: 11px;background-position: -121px -5px;}
-.sprite-copy {width: 16px;height: 15px;background-position: -121px -26px;}
-.sprite-dev {width: 65px;height: 65px;background-position: -5px -51px;}
-.sprite-dev-tools {width: 15px;height: 11px;background-position: -80px -51px;}
-.sprite-docs {width: 15px;height: 15px;background-position: -105px -51px;}
-.sprite-dropdown_icon {width: 16px;height: 16px;background-position: -80px -76px;}
-.sprite-edit {width: 13px;height: 13px;background-position: -106px -76px;}
-.sprite-google {width: 18px;height: 18px;background-position: -106px -99px;}
-.sprite-linkedin {width: 19px;height: 18px;background-position: -147px -5px;}
-.sprite-overview {width: 15px;height: 15px;background-position: -147px -33px;}
-.sprite-plus {width: 12px;height: 12px;background-position: -130px -58px;}
-.sprite-top_arrow {width: 8px;height: 15px;background-position: -152px -58px;}
-.sprite-twitter {width: 19px;height: 15px;background-position: -134px -83px;}
-.sprite-user {width: 50px;height: 50px;background-position: -176px -5px;}
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-alert_tick {
+    width: 21px;
+    height: 21px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow {
+    width: 13px;
+    height: 24px;
+    background-position: -36px -5px;
+}
+
+.sprite-cancel_button {
+    width: 21px;
+    height: 21px;
+    background-position: -59px -5px;
+}
+
+.sprite-check {
+    width: 21px;
+    height: 14px;
+    background-position: -90px -5px;
+}
+
+.sprite-contact-us {
+    width: 15px;
+    height: 11px;
+    background-position: -121px -5px;
+}
+
+.sprite-copy {
+    width: 16px;
+    height: 15px;
+    background-position: -121px -26px;
+}
+
+.sprite-dev {
+    width: 65px;
+    height: 65px;
+    background-position: -5px -51px;
+}
+
+.sprite-dev-tools {
+    width: 15px;
+    height: 11px;
+    background-position: -80px -51px;
+}
+
+.sprite-docs {
+    width: 15px;
+    height: 15px;
+    background-position: -105px -51px;
+}
+
+.sprite-dropdown {
+    width: 16px;
+    height: 16px;
+    background-position: -80px -76px;
+}
+
+.sprite-dropup {
+    width: 10px;
+    height: 6px;
+    background-position: -106px -76px;
+}
+
+.sprite-edit {
+    width: 13px;
+    height: 13px;
+    background-position: -106px -92px;
+}
+
+.sprite-google {
+    width: 18px;
+    height: 18px;
+    background-position: -80px -115px;
+}
+
+.sprite-linkedin {
+    width: 19px;
+    height: 18px;
+    background-position: -108px -115px;
+}
+
+.sprite-overview {
+    width: 19px;
+    height: 19px;
+    background-position: -147px -5px;
+}
+
+.sprite-top_arrow {
+    width: 8px;
+    height: 15px;
+    background-position: -147px -34px;
+}
+
+.sprite-twitter {
+    width: 19px;
+    height: 15px;
+    background-position: -130px -59px;
+}
+
+.sprite-user {
+    width: 50px;
+    height: 50px;
+    background-position: -176px -5px;
+}
+
+
+
 
 

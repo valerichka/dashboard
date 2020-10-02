@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script defer src="script.js"></script>
 </head>
-<body>
+<body class="body">
 
 	<div class="main_container">
 		
@@ -22,7 +22,7 @@
 						  	<i class="sprite sprite-overview"></i>
 						</span>
 						&nbsp;
-						<span>Overview</span>
+						<span class="menu_tab_inner_text">Overview</span>
 					</a>
 				</div>
 				<div class="menu_tab2 menu_tab_hover_1">
@@ -31,7 +31,7 @@
 						  	<i class="sprite sprite-docs"></i>
 						</span>
 						&nbsp;
-						<span>Docs</span>
+						<span class="menu_tab_inner_text">Docs</span>
 					</a>
 				</div>
 				<div class="menu_tab3 menu_tab_hover_1">
@@ -40,7 +40,7 @@
 						  	<i class="sprite sprite-contact-us"></i>
 						</span>
 						&nbsp;
-						<span>Contact Us</span>
+						<span class="menu_tab_inner_text">Contact Us</span>
 					</a>
 				</div>
 				<div class="menu_tab4 menu_tab_hover_1">
@@ -49,7 +49,7 @@
 						  	<i class="sprite sprite-dev-tools"></i>
 						</span>
 						&nbsp;
-						<span>Dev tools</span>
+						<span class="menu_tab_inner_text">Dev tools</span>
 					</a>
 				</div>
 			</div>
@@ -82,13 +82,13 @@
 
 				<div>
 					<span class="ps_label_1">first name</span>
-					<input id="firstName" class="ps_input_1 profile_input_color_red" type="text" name="" onchange="validation('firstName', 'warningMessageF')">
+					<input id="firstName" class="ps_input_1 profile_input_color_red profile_form_input_text" type="text" name="" onchange="validation('firstName', 'warningMessageF')">
 					<span id="warningMessageF" class="ps_help_text_1">First name cann't blank</span>
 					<span class="ps_label_2">last name</span>
-					<input id="lastName" class="ps_input_2 profile_input_color_red" type="text" name="" onchange="validation('lastName', 'warningMessageL')">
+					<input id="lastName" class="ps_input_2 profile_input_color_red profile_form_input_text" type="text" name="" onchange="validation('lastName', 'warningMessageL')">
 					<span id="warningMessageL" class="ps_help_text_2">Last name cann't blank</span>
 					<span class="ps_label_3">company</span>
-					<input class="ps_input_3" type="text" name="">
+					<input class="ps_input_3 profile_form_input_text" type="text" name="">
 					<span class="profile_setting_button button_hover" onclick="ProfileUpdateAlert()">
 						<span class="profile_setting_button_text">
 							Save changes
